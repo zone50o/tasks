@@ -9,9 +9,15 @@ Leave running while using the application.
 You can now access the api and H2 Console for use.
 
 API: http://localhost:8080/swagger-ui/index.html
+
 H2: http://localhost:8080/h2-console
-    Use below properties when loging in
-    Driver Class: org.h2.Driver
-    JDBC URL: jdbc:h2:mem:taskdb
-    User Name: sa
-    Password: password
+
+Use below properties when logging in
+
+Driver Class: org.h2.Driver
+
+JDBC URL: jdbc:h2:mem:taskdb
+
+User Name: sa
+
+Password: password
