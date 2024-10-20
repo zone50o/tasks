@@ -1,4 +1,5 @@
 Clone project to local machine.
+
 Open project in preferred IDE and adjust settings to use Use JDK 17 and Maven 3.9.8
 
 Run "maven clean install" and wait for finish
