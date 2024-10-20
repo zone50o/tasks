@@ -3,6 +3,7 @@ Clone project to local machine.
 Open project in preferred IDE and adjust settings to use Use JDK 17 and Maven 3.9.8
 
 Run "maven clean install" and wait for finish
+
 Run TasksApplication.java and wait for the message "Started TasksApplication in XX seconds" in terminal.
 Leave running while using the application.
 
