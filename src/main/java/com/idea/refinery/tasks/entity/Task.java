@@ -1,6 +1,6 @@
 package com.idea.refinery.tasks.entity;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -24,6 +24,6 @@ public class Task {
     private String title;
     private String description;
     private Boolean completed;
-    private Date createDate;
-    private Date completedDate;
+    private LocalDate createDate;
+    private LocalDate completedDate;
 }

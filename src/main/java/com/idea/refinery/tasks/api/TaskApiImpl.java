@@ -24,7 +24,7 @@ public class TaskApiImpl implements TaskApi{
     public ResponseEntity<List<Task>> getAllTasks() {
         List<Task> list = taskService.fetchTaskList();
   
-        if(list.size() <= 0){
+        if(list.isEmpty()){
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         else{
